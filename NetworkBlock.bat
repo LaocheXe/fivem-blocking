@@ -17,6 +17,7 @@ echo.
 echo [NetworkBlock] Blocking Malware Vendor D...
 echo 127.0.0.1 dark-utilities.xyz >> %WINDIR%\System32\drivers\etc\hosts
 echo [NetworkBlock] Blocked dark-utilities.xyz
+echo.
 echo [NetworkBlock] Blocking Malware Vendor E...
 echo 127.0.0.1 spectre.sbs >> %WINDIR%\System32\drivers\etc\hosts
 echo [NetworkBlock] Blocked spectre.sbs
@@ -32,5 +33,13 @@ echo.
 echo [NetworkBlock] Blocking Malware Vendor H...
 echo 127.0.0.1 admin-panel.sbs >> %WINDIR%\System32\drivers\etc\hosts
 echo [NetworkBlock] Blocked admin-panel.sbs
+echo.
+echo [NetworkBlock] Blocking Malware Vendor I...
+echo 127.0.0.1 rpserver.f2_ >> %WINDIR%\System32\drivers\etc\hosts
+echo [NetworkBlock] Blocked rpserver.f2_
+echo.
+echo [NetworkBlock] Blocking Malware Vendor J...
+echo 127.0.0.1 gohomie.org >> %WINDIR%\System32\drivers\etc\hosts
+echo [NetworkBlock] Blocked gohomie.org
 echo.
 pause 
