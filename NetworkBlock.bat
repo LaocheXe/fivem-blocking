@@ -42,4 +42,8 @@ echo [NetworkBlock] Blocking Malware Vendor J...
 echo 127.0.0.1 gohomie.org >> %WINDIR%\System32\drivers\etc\hosts
 echo [NetworkBlock] Blocked gohomie.org
 echo.
+echo [NetworkBlock] Blocking Malware Vendor K...
+echo 127.0.0.1 madara89.com >> %WINDIR%\System32\drivers\etc\hosts
+echo [NetworkBlock] Blocked madara89.com
+echo.
 pause 
